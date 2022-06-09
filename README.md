@@ -51,3 +51,7 @@ Runs the [Cypress] end-to-end tests, which means:
 - Waiting for the app to start then running the tests
 
 [cypress]: https://www.cypress.io/
+
+## docker
+docker build -t cyf-forms .
+docker run -ti -p 3002:3002 cyf-forms
